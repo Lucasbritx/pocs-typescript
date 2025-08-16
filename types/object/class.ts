@@ -16,3 +16,9 @@ class Car {
 
 const newCar = new Car("Onix", "Chevrolet", 2011);
 newCar.drive();
+
+
+newCar.make = "Toyota";
+newCar.model = "Etios";
+
+newCar.drive();
