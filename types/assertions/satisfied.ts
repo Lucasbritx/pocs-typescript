@@ -4,7 +4,7 @@ const favoriteColors = {
   red: "yes",
   green: false,
   blue: "kinda",
-  platypus: false,
+  //platypus: false,
   //  ~~~~~~~~~~ error - "platypus" was never listed in 'Colors'.
 } satisfies Record<Colors, unknown>;
 // All the information about the 'red', 'green', and 'blue' properties are retained.
